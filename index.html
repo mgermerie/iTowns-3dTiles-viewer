@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ITowns - 3D tiles viewer</title>
+
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" href="./css/example.css">
+		<link rel="stylesheet" href="./css/style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+        <script src="./libs/GuiTools.js"></script>
+        <script src="./libs/itowns.js"></script>
+        <script src="./libs/debug.js"></script>
+	</head>
+	<body>
+        <div id="description">Specify the URL of a tileset to load:
+            <input type="text" id="url">
+            <button id="read-url">Load</button>
+            <hr />
+            <p id="featureInfoText" class="marg">
+				<em>Display feature information by clicking on it</em>
+			</p>
+            <p><b>Feature Information:</b></p>
+            <div id="featureInfo" class="marg"></div>
+        </div>
+
+		<div id="viewerDiv" class="view-container"></div>
+
+		<script type="module" src="./js/index.js"></script>
+	</body>
+</html>

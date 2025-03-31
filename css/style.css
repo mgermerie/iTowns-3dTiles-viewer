@@ -1,0 +1,17 @@
+.view-container {
+	height: 100vh;
+}
+
+#description {
+	z-index: 2;
+	left: 10px;
+}
+
+#featureInfoText {
+	font-size: small;
+}
+
+#description .marg {
+	margin: 10px;
+}
+
